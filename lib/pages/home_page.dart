@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: (Center(
-        child: Text("Hello, PDP PDP PDP"),
+        child: Text("Hello, PDP!"),
       )),
     );
   }
