@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_declarations, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class DetailPage extends StatefulWidget {
@@ -11,6 +13,8 @@ class DetailPage extends StatefulWidget {
 class _DetailPageState extends State<DetailPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(child: Text('Welcome Detail Page!')),
+    );
   }
 }
